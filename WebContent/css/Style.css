@@ -1,0 +1,203 @@
+@charset "ISO-8859-1";
+/* navigation bar */
+#nav-container{
+    background-color: #00152e;
+    height: 62px;
+    margin-left: 125px;
+    margin-right: 125px;
+    /* border-radius: 60px; */
+    
+}
+
+.navbar .navbar-nav .nav-item a{
+    color:white;
+    font-family: 'Bree Serif', serif;
+    margin: 8px 8px;
+  
+}
+.navbar .navbar-nav {
+    margin: 0 auto;
+
+}
+#navbarNav ul li a:hover{
+    color: aquamarine;
+    background-color:#827c7c;
+    border-radius: 6px;
+}
+
+/* admin section logout button */
+.nav-button{
+    /* padding-left: 200px; */
+    position: absolute;
+    right: -225px;
+}
+
+
+/* heading container */
+
+
+#Heading-container{
+    background-color: #dedede; 
+    background-image: url(img/bgimg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#img {
+    /* border: 2px solid black; */
+    margin: 23px 23px;
+    border: 8px solid whitesmoke;
+    border-radius: 17px;
+
+}
+
+#textc {
+    margin-top: 72px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.line{
+    border: 2px solid black;
+}
+
+/* project heading */
+#project-container{
+    background-color: #7dcbda;
+    height: 50px;
+}
+
+ #Heading{
+    font-family: 'Carter One', cursive;
+    font-size: 30px;
+    color: blanchedalmond;
+    line-height: 46px;
+}
+
+/* welcome page  */
+.wel-container{
+    background-color: #99ffb6;
+    text-align: center;
+}
+    /* heading */
+.staff-section{
+    color: #0966a9;
+    font-family: 'Ultra', serif;
+}    
+/* Homepage container */
+.img-name h6{
+    padding: 6px 6px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: darkcyan;
+    color: sandybrown;
+}
+.home-container{
+    background-color: #00000021; 
+    padding: 15px 3px;
+}
+
+/* login form  */
+#form-container{
+    /* border: 2px solid black; */
+    
+    box-sizing: border-box;
+    border-radius: 22px;
+    padding: 19px 30px;
+    box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, .08);
+    width: 30%;
+    height: 50%;  
+}
+
+/* feedback form */
+.feedback-form{
+    box-sizing: border-box;
+    border-radius: 22px;
+    box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, .08);
+    width: 54%;
+}
+.feedback-form p{
+    padding-left: 50px;
+}
+.feedback-form #radio-button {
+    padding-left: 100px;
+}
+.feedback-form div button{
+    margin-left: 10px;
+    padding: 11px 90px;
+}
+/* radio-button */
+#radio-button {
+    padding-left: 50px;
+}
+
+/* form info div */
+.info-div{
+    text-align: center  ;
+}
+/* admin page logo */
+#adminLogo img{
+    border: 2px solid black;
+    border-radius: 271px;
+    padding-left: -2px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 137px;
+}
+/* student page logo */
+#studentLogo img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* staff logo */
+#stafflogo img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 140px;
+}
+
+/* footer container */
+
+#footer-container h6{
+    text-align: center;
+    padding: 28px 3px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, .08);
+    background-color: #eeecff;
+}
+#about-us a{
+    line-height: 77px;
+    padding-left: 37px;
+    font-family: 'Bree Serif', serif;
+
+}
+.line2{
+    border: 2px solid #2c8198;
+}
+
+/* Our Team */
+.team-info{
+    background-color: #73e8b5; 
+    padding: 80px 50px; 
+}
+
+/* Contact us */
+.add-container{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, .08);
+    background-color: #ffffff;
+ }
+
+ .container i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+
+
+
